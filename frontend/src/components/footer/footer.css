@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Mulish:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic');
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .footer-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .footer-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-menu li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-menu a:hover {
+    color: #ff9800;
+  }
+  
+  .footer-contact p {
+    margin-bottom: 5px;
+  }
+  
+  .footer-contact a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-contact a:hover {
+    color: #ff9800;
+  }
+  
